@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Basics</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles/app.css" />
+  <link rel="stylesheet" href="../bootstrap/css/all.css.css">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="color:sandybrown;" href="/index.html">何冠勳 208410257</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/main.html">JS Summary</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            JS demo
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/calculator/index.html">Unconventional Calculator</a>
+            <a class="dropdown-item" href="/monster/index.html">Monster Killer</a>
+            <a class="dropdown-item" href="/DOM Movie Project/index.html">DOM Movie Project</a>
+            <a class="dropdown-item" href="/music player/index.html">Music Player</a>
+            <a class="dropdown-item" href="/video player/index.html">Video Player</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <h1>The Unconventional Calculator</h1>
+  </header>
+
+  <section id="calculator">
+    <input type="number" id="input-number" />
+    <div id="calc-actions">
+      <button type="button" id="btn-add">+</button>
+      <button type="button" id="btn-subtract">-</button>
+      <button type="button" id="btn-multiply">*</button>
+      <button type="button" id="btn-divide">/</button>
+    </div>
+  </section>
+  <section id="results">
+    <h2 id="current-calculation">0</h2>
+    <h2>Result: <span id="current-result">0</span></h2>
+  </section>
+  <script src="assets/scripts/vendor.js"></script>
+  <script src="assets/scripts/app.js"></script>
+  <script src="/bootstrap/js/popper.min.js"></script>
+  <script src="/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
