@@ -93,7 +93,7 @@ body {
   
   /*card1*/
   .card-image.card1 {
-    background: url("/img/1.jpg");
+    background: url("img/1.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: contain;
@@ -111,7 +111,7 @@ body {
   }
   /*card2*/
   .card-image.card2 {
-    background: url("/img/2.jpg");
+    background: url("img/2.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: contain;
@@ -129,7 +129,7 @@ body {
   }
   /*card3*/
   .card-image.card3 {
-    background: url("/img/3.jpg");
+    background: url("img/3.jpg");
     background-size: cover;
   }
   .card-text.card3 .date {
@@ -144,7 +144,7 @@ body {
   }
   /*card4*/
   .card-image.card4 {
-    background: url("/img/4.jpg");
+    background: url("img/4.jpg");
     background-size: cover;
   }
   .card-text.card4 .date {
@@ -159,7 +159,7 @@ body {
   }
     /*card5*/
     .card-image.card5 {
-        background: url("/img/5.jpg");
+        background: url("img/5.jpg");
         background-size: cover;
       }
       .card-text.card5 .date {
