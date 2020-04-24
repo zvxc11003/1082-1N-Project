@@ -1,0 +1,33 @@
+#img1{
+float: left;
+}
+#img3{
+    float: left;
+}
+#img5{
+    float: left;
+}
+#img7{
+    float: right;
+    clear: both;
+}
+#img8{
+    float: left;
+    clear:left;
+}
+
+.img{
+    clear: both;
+}
+.container{
+    padding: 100px;
+}
+section{
+    clear: both;
+}
+#s5{
+    background-color: slateblue;
+}
+#s3{
+    background-color: springgreen;
+}
